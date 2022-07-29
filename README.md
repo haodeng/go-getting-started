@@ -8,6 +8,9 @@ In hello:
    # use local package
    go mod edit -replace example.com/greetings=../greetings
 
+   # or, use module in go.work
+   go work use ./greetings
+
 
 # To build:
 
