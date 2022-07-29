@@ -1,6 +1,7 @@
 go 1.18
 
 use (
-    ./hello
-    ./greetings
+	./greetings
+	./hello
+	./web-service-gin
 )
