@@ -9,12 +9,12 @@ In hello:
    go mod edit -replace example.com/greetings=../greetings
 
 
-To build:
+# To build:
 
     cd hello
     go build
     ./hello
 
-To install:
+# To install:
 
     go install # install to go bin dir locally
