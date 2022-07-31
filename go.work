@@ -3,6 +3,7 @@ go 1.18
 use (
 	./fuzz
 	./generics
+	./gowiki
 	./greetings
 	./hello
 	./web-service-gin
